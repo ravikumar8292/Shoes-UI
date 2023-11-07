@@ -1,0 +1,106 @@
+.Content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 94px;
+}
+.left-content{
+    width: 40vw;
+    position: relative;
+    bottom: 80px;
+    left: 125px;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+}
+.Title{
+    border: 2px solid rgb(255, 255, 255);
+    width: 49vw;
+    height: 37vh;
+}
+.Title h1,h2{
+    font-size: 68px;
+
+}
+.Title h1{
+    /* padding-bottom: 145px; */
+    /* margin-top: 123px; */
+    /* gap: -32px; */
+    /* text-indent: 12px; */
+    line-height: 65px;
+    letter-spacing: 7px;
+    word-spacing: 9px;
+}
+.read-more{
+    /* border: 2px solid red; */
+    width: 25vw;
+    position: relative;
+    bottom: 15px;
+    height: 10vh;
+    margin-left: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.read-more p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    /* text-align: center; */
+}
+.sell-button{
+    margin-bottom: 17px;
+    position: relative;
+    bottom: 3px;
+    margin-left: 8px;
+
+    /* border: 2px solid yellow; */
+}
+.Shop-Now-1{
+    margin-right: 19px;
+    width: 128px;
+    height: 30px;
+    background-color: rgb(198, 9, 9);
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease-in-out;
+    font-size: 17px;
+    /* box-shadow: 3px 3px 5px rgba(1 1 1 0.6); */
+}
+.Shop-Now-1:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+.Category{
+    margin-right: 19px;
+    width: 128px;
+    height: 30px;
+    transition: 0.5s ease-in-out;
+    font-size: 17px;
+
+}
+.Category:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+.Available-on{
+    position: relative;
+    bottom: 0px;
+    margin-left: 8px;
+
+    /* border: 2px solid green; */
+}
+.icon{
+    margin-top: 8px;
+}
+.icon a img{
+    margin: 0px 9px;
+    cursor: pointer;
+}
+.right-content{
+    /* border: 2px solid red; */
+    margin-right: 134px;
+}
+.right-content img{
+    width: 500px;
+    height: 500px;
+    margin-left: 8px;
+
+}
